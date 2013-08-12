@@ -14,3 +14,8 @@ snippet ai "alloc + init" b
 ${1:var} = [[${2:type} alloc] init];$0
 endsnippet
 
+snippet iss "alloc + init" b
+NS${1:Mutable}String *${2:str} = [[NS$1String alloc] init];
+$0
+endsnippet
+
